@@ -70,6 +70,13 @@ However, if we were working with real data and apis, the following optimizations
 A dashboard can be built using existing libraries, however if we have to build some additional features that aren't available in the existing libraries, we would have used useMemo for caching the data and useCallback for memoizing the functions.
 For heavy functions on client side, we could have used lodash.memoize to memoize the functions. And web workers could have been used to handle the heavy computations to offload the heavy computations from the main thread so that ui don't get blocked.
 
+## Bonus Features:
+1. Export to CSV
+2. Auto refresh every 5 minutes
+3. Manual refresh option
+4. Date range picker
+
+
 ## MYSELF:
 Himanshu Saini
 hs913271@gmail.com
